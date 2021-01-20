@@ -1,0 +1,350 @@
+*{margin:0; padding:0; font-family:'Poiret One', Helvetica, Arial, Sans-serif;}
+h1, h2{font-family:'Poiret One', Helvetica, Arial, Sans-serif}
+
+/*FONT*/
+h1{font-size: 40px;}
+p{font-size: 25px;}
+
+body
+{
+	margin: 0px;
+	background-color: #fff;
+	background:url(bg/experience_r_repeat2.png) left top repeat;
+	
+}
+
+#container
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.panel{
+	display: inline-block;
+	height:100%;
+	width:100%;
+	top:0px;
+
+}
+
+#panel-1{
+	
+	position: absolute;
+	left: 0px;
+	
+
+}
+
+.whitespace{
+	display: inline-block;
+	height: 100%;
+	float: left;
+	background: rgba(255, 255, 255, 0.90);
+	z-index: -1;
+	
+
+}
+
+.woodpanel
+{   display: inline-block;
+	top:0px;
+	height:100%;
+	float:left;
+	background:url(bg/81670.jpg) left top repeat;
+	min-width:350px;
+
+}
+
+.blurb
+{
+	padding-top:10%;
+	width:70%;
+	padding-left: 15%;
+	text-align: center;
+	color: #000;
+
+}
+
+.blurb p
+{
+	padding-top:50px;
+}
+
+#summary-graph
+{
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	min-width: 800px;
+	width: 90%;
+	height: 100%;
+	left: 10%;
+	top:0px;
+}
+
+#graph-1-container
+{
+	position: absolute;
+	height:75%;
+	top:18%;
+	left:180px;
+	width: 80%;
+}
+
+.bar-line
+{
+	position: absolute;
+	height: 6%;
+}
+
+#bar-1
+{
+	top: 0%;
+	width: 40%;
+	
+}
+
+#bar-2
+{
+	top: 12%;
+	width: 50%;
+	
+}
+
+#bar-3
+{
+	top: 24%;
+	width: 60%;
+}
+
+#bar-4
+{
+	top: 36%;
+	width: 55%;
+}
+
+#bar-5
+{
+	top: 48%;
+	width: 20%;
+}
+
+#bar-6
+{
+	top: 60%;
+	width: 10%;
+}
+
+#bar-7
+{
+	top: 72%;
+	width: 40%;
+}
+
+#bar-8
+{
+	top: 84%;
+	width: 70%;
+}
+
+#bar-9
+{
+	top: 96%;
+	width: 60%;
+}
+
+.graph-1-line
+{	
+	position: absolute;
+	height: 102%;
+	width:2px;
+	background-color: #fff;
+}
+
+#graph-1-line-1
+{
+	left:15%;	
+}
+
+#graph-1-line-2
+{	
+	left:30%;
+}
+
+#graph-1-line-3
+{
+	left:45%;
+}
+
+#graph-1-line-4
+{
+	left:60%;
+}
+
+#graph-1-line-5
+{	
+	left:75%;
+}
+
+#skill-label-container
+{ 	
+	position: absolute;
+	top:18%;
+	left:2%;   
+	height:75%;
+	width: 150px;
+
+}
+
+.skill-label
+{
+	position: absolute;
+	text-align: right;
+	width: 100%;
+	font-size: 20px;
+	
+}
+
+#skill-label-1
+{	
+	top:0%;	
+}
+
+#skill-label-2
+{
+	top:12%;	
+}
+
+#skill-label-3
+{
+	top:24%;
+}
+
+#skill-label-4
+{
+	top:36%;
+}
+
+#skill-label-5
+{	
+	top:48%;
+}
+
+#skill-label-6
+{	
+	top:60%;
+}
+
+#skill-label-7
+{	
+	top:72%;
+}
+
+#skill-label-8
+{	
+	top:84%;
+}
+
+#skill-label-9
+{	
+	top:96%;
+}
+
+#skill-level-container
+{
+	position: absolute;
+	width: 80%;
+	left:180px;
+	height: 40px;
+	top:10%;
+}
+
+.skill-level
+{
+	position: absolute;
+}
+
+#skill-level-1
+{
+	left: 5%;
+}
+
+#skill-level-2
+{
+	left: 20%;
+}
+
+#skill-level-3
+{
+	left: 35%;
+}
+
+#skill-level-4
+{
+	left: 50%;
+}
+
+#skill-level-5
+{
+	left: 65%;
+}
+
+.pink{
+	background: rgba(255, 0, 155, 0.4);
+}
+
+.purple{
+	background: rgba(255, 0, 255, 0.4);
+}
+
+.red{
+	background: rgba(255, 0, 0, 0.5);
+}
+
+.blue{
+	background: rgba(0, 100, 255, 0.4);
+}
+
+.turquoise{
+	background: rgba(0, 255, 255, 0.4);
+}
+
+
+.green{
+	background: rgba(0, 255, 100, 0.3);
+}
+
+
+.highlight
+{
+	display: inline-block;
+	float:left;
+	height:100%;
+}
+
+.thin-1{
+	width: 3%;
+}
+
+.thin-2{
+	width: 10%;
+}
+
+.mid-1{
+	width: 25%;
+}
+.mid-2{
+	width: 30%;
+}
+
+
+.fat-1{
+	width:66%;
+}
+.fat-2{
+	width:70%;
+}

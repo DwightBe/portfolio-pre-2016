@@ -1,0 +1,315 @@
+*{margin:0; padding:0; font-family:'Poiret One', Helvetica, Arial, Sans-serif;}
+h1, h2{font-family:'Poiret One', Helvetica, Arial, Sans-serif}
+a{text-decoration: none; }
+
+/*FONT*/
+h1{font-size: 30px;}
+h2{font-size: 20px;}
+p{font-size: 15px;}
+
+body
+{
+	margin: 0px;
+	background-color: #fff;
+	background:url(bg/experience_r_repeat2.png) left top repeat;
+	
+}
+
+#page
+{
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+#container
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.absolute
+{
+	position: absolute;
+}
+
+.relative
+{
+	position: relative;
+}
+.highlight
+{
+	display: inline-block;
+	float:left;
+	height:100%;
+	
+}
+
+.pink{
+	background: rgb(255, 0, 155);
+}
+
+.purple{
+	background: rgb(255, 0, 255);
+}
+
+.red{
+	background: rgb(255, 0, 0);
+}
+
+.blue{
+	background: rgb(0, 100, 255);
+}
+
+.turquoise{
+	background: rgb(0, 255, 255);
+}
+
+.green{
+	background: rgb(0, 255, 100);
+}
+
+.black{
+	background:rgba(0,0,0,0.3);
+}
+
+.opacity-1{
+	opacity:0.3;
+}
+
+.opacity-2{
+	opacity:0.4;
+}
+
+.opacity-3{
+	opacity:0.5;
+}
+
+.thin-1{
+	width: 5%;
+}
+
+.thin-2{
+	width: 10%;
+}
+
+.mid-1{
+	width: 26%;
+}
+.mid-2{
+	width: 28%;
+}
+.mid-3{
+	width: 30%;
+}
+
+.fat-1{
+	width:64%;
+}
+.fat-2{
+	width:70%;
+}
+.fat-3{
+	width:90%;
+}
+
+.panel{
+	height:100%;
+	width:100%
+	top:0px;
+}
+
+#panel-2{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+
+}
+
+.whitespace{
+	display: inline-block;
+	height: 100%;
+	float: left;
+	z-index: -1;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+header{
+	text-align: center;
+}
+
+#panel-2-container{
+	position: relative;
+	z-index: 0;
+}
+
+#buttons-container{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.content-container{
+	display: none;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.square-viewer{
+	position: relative;
+	display: inline-block;
+	float:left;
+	width:50%;
+	height:50%;
+}
+.sq-bg, .sq-button{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 1000px;
+    max-height: 500px;
+    
+}
+
+.sq-button{
+
+	z-index:1;
+	
+}
+
+#projects-button:hover{
+
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+ 	-o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(0, 100, 255,0.4);    
+}
+
+#illustration-button:hover{
+
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+ 	-o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(255, 0, 155,0.3);
+
+	}
+
+#art-button:hover{
+    
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+ 	-o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(0, 255, 255, 0.4);
+	}
+
+#links-button:hover{
+
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+ 	-o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background: rgba(255, 0, 255,0.5);
+
+	}
+
+#links-button:active,#illustration-button:active,
+#art-button:active,#projects-button:active{
+	background:rgba(255,255,255,0.8);  
+}
+
+
+.sq-button h1{
+	position: absolute;
+	color: #fff;
+	top:45%;
+	margin: 0 auto;
+	left:0;
+	right: 0;
+
+}
+
+#projects-button h1, #illustration-button h1, #links-button h1{
+	width:180px;
+}
+
+#art-button h1{
+	width:100px;
+}
+
+
+.sq-bg {
+	z-index:0;
+}
+
+.sq-bg img 
+{
+	position:absolute;
+	margin: -100px 0 0 -200px;
+
+}
+
+#art-bg img
+{
+	margin: -280px 0 0 -150px;
+}
+
+
+.content-container
+{
+	padding:15px 0 0 0;	
+	overflow: hidden;
+	margin:0 auto;
+}
+
+#toystore
+{
+	height: 363px;
+	width: 500px;
+}
+
+/*PROJECTS*/
+
+div#projects-container{width:100%;}
+div#projects-container li{padding:10px;list-style: none}
+
+/*ART*/
+div#art-container{width:100%; margin: 0 auto;}
+div#art-container div.fixAlign{text-align: center;}
+
+
+/*OTHER STUFF*/
+div#links-container{padding:10% 0 0 0;	}
+div#links-container div.header{width:80%; margin: 0 auto;}
+
+
+/*SLIDER*/
+div.workSlide{width:100%; float: left; padding:10px 0 0 0; }
+div.workSlide div.superSliderBox{ width: 500px; height: 600px; padding:10px 150px; margin:0 auto;}
+div.workSlide div.superSliderBox div.superSlider{width:100%; height: 600px; position: relative;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderSlider{width: 100%; height: 600px; position: absolute; top: 0px; left: 0px;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderMask{width: 100%; height: 600px; position: absolute; top: 0px; left: 0px; overflow: hidden;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderArrow a{display:block; width:60px; height: 600px; top: 0px; background-repeat:no-repeat; background-position: center center; position: absolute; z-index: 100;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderArrow.superSliderArrowPrev a{background-image:url(arrow/redArrowPrev.png); left: -40px;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderArrow.superSliderArrowNext a{background-image:url(arrow/redArrowNext.png); right: -40px;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderSlider div.superSliderSlide{width: 500px; height: 600px;float: left; background-color: #000; position: relative; overflow: hidden;}
+div.workSlide div.superSliderBox div.superSlider div.superSliderSlider div.superSliderSlide img{position: absolute; top: 0px; left: 0px; width: 500px; height: 600px;}
+
+
+/*SLIDER COMMON*/
+div.superSliderSlideContent{position: absolute; z-index: 100;}
+div.superSliderSlideContent h2, div.superSliderSlideContent p{padding:0 0 20px 0;}
+div.superSliderSlideContent ul{list-style-type: none;}
+div.superSliderSlideContent ul li{padding: 5px 0 5px 40px; background:url(bg/star.png) 0 center no-repeat;}
+
+
